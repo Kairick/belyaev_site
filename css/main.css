@@ -59,9 +59,9 @@ nav li a {
 
 @media screen and (max-width: 515px) {
 	.col-xs-1 {padding: 5px}
-	figure img {width: 50px;}
+	figure img {width: 45px;}
 	.nav-menu {padding-left: 10px; margin-top: 0px;}
-	.nav>li>a {padding: 10px 10px;}
+	.nav>li>a {padding: 10px 5px;}
 	.for_phones {display: none}
 	.fa {display: block;}
 	ul.nav.nav-pills {display: table; margin: 0 auto;}
