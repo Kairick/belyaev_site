@@ -7,7 +7,7 @@
 body { 
 	margin:0;
     background-color: rgba(255,255,255);
-    font: 16px/1.42857 "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font: 16px/1.42857 Ubuntu,Helvetica,Arial,sans-serif;
     color: #ffffff;
 }
 
@@ -76,6 +76,9 @@ nav li a {
 	height: auto;
 }
 
+@media screen and (min-width: 1199px) {
+	.back {padding: 0 150px;}
+}
 .greeting {
 	margin-top: 70px;	
 }
