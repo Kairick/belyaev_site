@@ -65,6 +65,7 @@ nav li a {
 	.for_phones {display: none}
 	.fa {display: block;}
 	ul.nav.nav-pills {display: table; margin: 0 auto;}
+	.mob-fixed {position: fixed; width: 100%}
 }
 
 .back {
@@ -77,8 +78,9 @@ nav li a {
 }
 
 @media screen and (min-width: 1199px) {
-	.back {padding: 0 150px;}
+	.back {padding: 0 150px; min-height: 720px}
 }
+
 .greeting {
 	margin-top: 70px;	
 }
