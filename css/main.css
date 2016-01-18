@@ -47,6 +47,7 @@ nav li a {
 
 @media screen and (max-width: 990px) {
 	figure {padding: 5px 5px 5px 50px}
+	.nav-menu {padding-left: 40px;}
 }
 
 @media screen and (max-width: 769px) {
@@ -54,18 +55,18 @@ nav li a {
 	figure img {width: 60px;}
 	.nav a {font-size: 16px;}
 	.nav>li>a {padding: 10px 5px;}
-	.nav-menu {padding-left: 20px; margin-top: 13px;}
+	.nav-menu {padding-left: 15px; margin-top: 13px;}
+	div.col-xs-1 {padding-left: 5px;}
 }
 
 @media screen and (max-width: 515px) {
 	.col-xs-1 {padding: 5px}
 	figure img {width: 45px;}
 	.nav-menu {padding-left: 10px; margin-top: 0px;}
-	.nav>li>a {padding: 10px 5px;}
 	.for_phones {display: none}
 	.fa {display: block;}
 	ul.nav.nav-pills {display: table; margin: 0 auto;}
-	.mob-fixed {position: fixed; width: 100%}
+	.mob-fixed {position: fixed; width: 100%;}
 }
 
 .back {
@@ -119,8 +120,18 @@ article a:hover {
 	.greeting p {font-size: 30px;}
 }
 
+@media screen and (max-width: 769px) {
+	.me {width: 250px;}
+}
 @media screen and (max-width: 515px) {
 	.greeting p {font-size: 24px;}	
+	.me {float: none;
+		 width: 200px;
+		 margin-top: 80px;}
+	.fig, article {text-align: center;}
+	article:first-child {margin-top: 80px;}
+	h2 {font-size: 20px;}
+	.cort a {font-size: 16px;}
 }
 
 footer {
