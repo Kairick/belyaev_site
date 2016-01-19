@@ -116,8 +116,37 @@ article a:hover {
 	font-size: 20px;
 }
 
+.contact {
+	float: left;
+}
+.contact h2 {
+	margin-bottom: 50px;
+}
+.contact p {
+	margin-bottom: 25px;
+}
+
+.map {
+	width: 500px;
+	height: 400px;
+	margin-top: 20px;
+	text-align: center;
+	float: right;
+}
+
+@media screen and (max-width: 1199px) {
+	.map {margin: 20px;}
+	.contact {margin-left: 20px;}
+}
+
 @media screen and (max-width: 990px) {
 	.greeting p {font-size: 30px;}
+	.map {
+		width: 450px;
+		height: 350px;
+		float: none; 
+		}
+	.contact {display: block; width: 100%}
 }
 
 @media screen and (max-width: 769px) {
