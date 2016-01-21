@@ -37,7 +37,7 @@ nav li a {
 	background-color: #3D489A;
 }
 
-.fa {
+.fa, .tel {
 	display: none;
 }
 
@@ -67,6 +67,7 @@ nav li a {
 	.fa {display: block;}
 	ul.nav.nav-pills {display: table; margin: 0 auto;}
 	.mob-fixed {position: fixed; width: 100%;}
+	.tel {display: inline;}
 }
 
 .back {
@@ -86,11 +87,12 @@ nav li a {
 	margin-top: 70px;	
 }
 
-.greeting p {
+.greeting p, caption {
 	text-align: center;
 	font-size: 36px;
 }
 
+caption {color: #ffffff;}
 
 .me {
 	max-width: 300px;
@@ -99,7 +101,7 @@ nav li a {
 	float: left;
 }
 
-article {
+article, table {
 	font-size: 18px;
 	margin: 10px;
 }
@@ -125,6 +127,7 @@ article a:hover {
 .contact p {
 	margin-bottom: 25px;
 }
+
 
 .map {
 	width: 500px;
