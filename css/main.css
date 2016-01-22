@@ -1,3 +1,4 @@
+/* general styles */ 
 *, *:before, *:after {
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
@@ -11,13 +12,12 @@ body {
     color: #ffffff;
 }
 
-.main-menu, footer {
-	background-color: #3D489A;
-}
+.main-menu, footer {background-color: #3D489A;}
+ 
+/* navigation */
 
-figure {
-	padding: 5px 5px 5px 150px;
-}
+figure {padding: 5px 5px 5px 150px;}
+
 figure img {
 	width: 80px;
 	height: auto;
@@ -33,13 +33,11 @@ nav a{
 	font-size: 18px;
 }
 
-nav li a {
-	background-color: #3D489A;
-}
+nav li a {background-color: #3D489A;}
 
-.fa, .tel {
-	display: none;
-}
+.fa, .tel {display: none;}
+
+/* adaptive navigation */
 
 @media screen and (max-width: 1199px) {
 	figure {padding: 5px 5px 5px 120px}
@@ -70,29 +68,37 @@ nav li a {
 	.tel {display: inline;}
 }
 
+/* content style */
+/*common for every page */
+
 .back {
+	height: auto;
 	background: url(../images/lawyer-background1.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment:  fixed;
 	background-size: cover;
-	height: auto;
 }
 
-@media screen and (min-width: 1199px) {
-	.back {padding: 0 150px; min-height: 720px;}
+article a {color: #7673d9;}
+
+article a:hover {color: #ffffff;}
+
+article, table {
+	margin: 10px;
+	font-size: 18px;
 }
 
-.greeting {
-	margin-top: 70px;	
-}
+/* main page */
+
+.greeting {margin-top: 70px;}
 
 .greeting p, caption {
 	text-align: center;
 	font-size: 36px;
 }
 
-caption {color: #ffffff;}
+/* about me */
 
 .me {
 	max-width: 300px;
@@ -101,22 +107,19 @@ caption {color: #ffffff;}
 	float: left;
 }
 
-article, table {
-	font-size: 18px;
-	margin: 10px;
-}
+/* services */
 
-article a {
-	color: #7673d9;
-}
+caption {color: #ffffff;}
 
-article a:hover {
-	color: #ffffff;
-}
+td {vertical-align: center;}
 
-.cort {
-	font-size: 20px;
-}
+.explanation {padding-left: 10px;}
+
+/* links page */
+
+.cort {font-size: 20px;}
+
+/*contacts */
 
 .contact {
 	float: left;
@@ -133,11 +136,14 @@ article a:hover {
 	width: 500px;
 	height: 400px;
 	margin-top: 20px;
-	text-align: center;
 	float: right;
+	text-align: center;
 }
 
+/* adaptive style for body */
+
 @media screen and (max-width: 1199px) {
+	.back {padding: 0 150px; min-height: 720px;}
 	.map {margin: 20px;}
 	.contact {margin-left: 20px;}
 }
@@ -149,13 +155,18 @@ article a:hover {
 		height: 350px;
 		float: none; 
 		}
-	.contact {display: block; width: 100%}
+	.contact {display: block; width: 100%;}
 }
 
 @media screen and (max-width: 769px) {
 	.me {width: 250px;}
+	.table {font-size: 18px;}
 }
 @media screen and (max-width: 515px) {
+	.back {width: 100%;}
+	.table, th {font-size: 14px; text-align: center;}
+	table td {padding: 0px;}
+	caption {margin-top: 60px; font-size: 24px;}
 	.greeting p {font-size: 24px;}	
 	.me {float: none;
 		 width: 200px;
@@ -166,14 +177,16 @@ article a:hover {
 	.cort a {font-size: 16px;}
 }
 
-footer {
-	padding: 20px 20px 10px 130px;
+@media screen and (max-width: 476px) {
+	.contact {width: auto;}
 }
+/* Footer */
 
-footer p{
-	padding-left: 0px;
-}
+footer {padding: 20px 20px 10px 130px;}
 
+footer p{padding-left: 0px;}
+
+/* Footer adaptive styles */
 
 @media screen and (max-width: 990px) {
 	.kairick {
@@ -186,8 +199,9 @@ footer p{
 }
 
 @media screen and (max-width: 769px) {
-	footer {padding: 15px;
+	footer {
+			padding: 15px;
 			text-align: center;
-			}
+	}
 }
 
