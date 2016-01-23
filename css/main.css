@@ -5,11 +5,24 @@
 	box-sizing:border-box;
 }
 
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body, .main {height: 100%;}
+
 body { 
-	margin:0;
+	margin: 0 0 60px 0;
     background-color: rgba(255,255,255);
     font: 16px/1.42857 Ubuntu,Helvetica,Arial,sans-serif;
     color: #ffffff;
+    height: auto;
+	background: url(../images/lawyer-background1.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment:  fixed;
+	background-size: cover;
 }
 
 .main-menu, footer {background-color: #3D489A;}
@@ -71,19 +84,8 @@ nav li a {background-color: #3D489A;}
 /* content style */
 /*common for every page */
 
-.back {
-	height: auto;
-	background: url(../images/lawyer-background1.jpg);
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment:  fixed;
-	background-size: cover;
-	
-}
-
-
 @media screen and (min-width: 1199px) {
-	.back {padding: 0 150px; min-height: 720px;}
+	.back {padding: 0 150px;}
 }
 
 article a {color: #7673d9;}
@@ -188,7 +190,13 @@ td {vertical-align: center;}
 }
 /* Footer */
 
-footer {padding: 20px 20px 10px 130px;}
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	padding: 20px 20px 10px 130px;	
+}
 
 footer p{padding-left: 0px;}
 
@@ -206,6 +214,7 @@ footer p{padding-left: 0px;}
 
 @media screen and (max-width: 769px) {
 	footer {
+			height: 80px;
 			padding: 15px;
 			text-align: center;
 	}
