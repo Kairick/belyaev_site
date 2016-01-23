@@ -13,7 +13,7 @@ html {
 body, .main {height: 100%;}
 
 body { 
-	margin: 0 0 60px 0;
+	margin: 0 0 70px 0;
     background-color: rgba(255,255,255);
     font: 16px/1.42857 Ubuntu,Helvetica,Arial,sans-serif;
     color: #ffffff;
@@ -71,7 +71,7 @@ nav li a {background-color: #3D489A;}
 }
 
 @media screen and (max-width: 515px) {
-	body {margin-bottom: 80px;}
+	body {margin-bottom: 90px;}
 	.col-xs-1 {padding: 5px}
 	figure img {width: 45px;}
 	.nav-menu {padding-left: 10px; margin-top: 0px;}
