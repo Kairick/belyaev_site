@@ -151,6 +151,15 @@ td {vertical-align: center;}
 
 /* adaptive style for body */
 
+@media screen and (min-width: 1400px) {
+	.map {
+		width: 700px;
+		height: 500px;
+	}
+	.contact h2 {font-size: 28px;}
+	.contact p {font-size: 22px;}
+}
+
 @media screen and (max-width: 1199px) {
 	.map {margin: 20px;}
 	.contact {margin-left: 20px;}
