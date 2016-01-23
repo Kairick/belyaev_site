@@ -71,6 +71,7 @@ nav li a {background-color: #3D489A;}
 }
 
 @media screen and (max-width: 515px) {
+	body {margin-bottom: 80px;}
 	.col-xs-1 {padding: 5px}
 	figure img {width: 45px;}
 	.nav-menu {padding-left: 10px; margin-top: 0px;}
