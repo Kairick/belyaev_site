@@ -73,8 +73,8 @@ nav li a {background-color: #3D489A;}
 @media screen and (max-width: 515px) {
 	body {margin-bottom: 90px;}
 	.col-xs-1 {padding: 5px}
-	figure img {width: 45px;}
-	.nav-menu {padding-left: 10px; margin-top: 0px;}
+	figure img {width: 40px;}
+	.nav-menu {padding-left: 0; margin-top: 5px;}
 	.for_phones {display: none}
 	.fa {display: block;}
 	ul.nav.nav-pills {display: table; margin: 0 auto;}
